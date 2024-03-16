@@ -1,15 +1,22 @@
 function markdown(data) {
-  return `# 9th-Challenge-Readme-Generator ${data.title}
+  return `# ${data.title}
 
 ## Description
 
 ${data.description}
 
+## Table of Contents
+
+* [Learned](#learned)
+* [Motivation?](#motivation)
+* [Project?](#project)
+* [Questions](#questions)
+
 ## What have you learned?
 
 ${data.learn}
 
-## What was your motivation
+## What was your motivation?
 
 ${data.motivation}
 

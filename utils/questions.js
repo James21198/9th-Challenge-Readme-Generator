@@ -1,6 +1,11 @@
 const questions = [
     {
         type: 'input',
+        name: 'title',
+        question: 'What is the title of your project?',
+    },
+    {
+        type: 'input',
         name: 'description',
         question: 'how would you describe your project?',
     },
@@ -28,6 +33,11 @@ const questions = [
         type: 'input',
         name: 'github',
         question: 'What is your github username?',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        question: 'What is your email address?',
     },
 ]
 
