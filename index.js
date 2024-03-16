@@ -10,7 +10,7 @@ function createFile(markdown) {
     );
 }
 
-function init() {
+function startProgram() {
     inquirer
         .prompt(questions)
         .then((answers) => {
@@ -19,4 +19,4 @@ function init() {
         });
 }
 
-init();
+startProgram();

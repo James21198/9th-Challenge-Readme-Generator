@@ -6,48 +6,30 @@ ${renderLicenseBadge(data.license)}
 
 ${data.description}
 
-## Table of Contents
-
-* [Installation](#installation)
-
-* [Usage](#usage)
-${renderlicenseLink(data.license)}
-* [Contributing](#contributing)
-
-*[Tests](#tests)
-
-* [Questions](#questions)
-
-## Installation
-
-To install the necessary dependencies, run the following command:
-
-\`\`\`
-${data.installation}
-\`\`\`
-
-## Usage
-
-${data.usage}
+${renderLicenseLink(data.license)}
 
 ${renderLicenseSection(data.license)}
 
-## Contributing
+## What have you learned?
 
-${data.contributing}
+${data.learn}
 
-## Tests
+## What was your motivation
 
-To run a test, run the following command:
+${data.motivation}
 
-\`\`\`
-${data.test}
-\`\`\`
+## Why did you build this project?
+
+${data.project}
+
+## What problem does this solve for you?
+
+${data.problem}
 
 ## Questions
 
-If you have any questions about my repo, open an issue or contact me directly at ${data.email}.
-You can also find more of my work at [${data.github}](https://github.com/${data.github}/).
+If you have any further questions about my repo, you can open an issue or contact me directly at ${data.email}.
+You can also find more of my previous work at [${data.github}](https://github.com/${data.github}/).
 
 `;
 }

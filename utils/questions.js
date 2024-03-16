@@ -1,13 +1,18 @@
 const questions = [
     {
         type: 'input',
-        name: 'descirption',
+        name: 'description',
         question: 'how would you describe your project?',
     },
     {
         type: 'input',
-        name: 'problem',
-        question: 'What have you learnt?',
+        name: 'learn',
+        question: 'What have you learned from this project?',
+    },
+    {
+        type: 'input',
+        name: 'motivation',
+        question: 'What was your motivation?',
     },
     {
         type: 'input',
@@ -20,14 +25,14 @@ const questions = [
         question: 'What problem does this solve?',
     },
     {
-        type: 'input',
-        name: 'problem',
-        question: 'What have you learnt?',
+        type: 'list',
+        name: 'license',
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
     },
     {
         type: 'input',
-        name: 'stand',
-        question: 'What makes your project stand out?',
+        name: 'github',
+        question: 'What is your github username?',
     },
 ]
 
