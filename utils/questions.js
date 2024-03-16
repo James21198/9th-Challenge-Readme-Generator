@@ -25,11 +25,6 @@ const questions = [
         question: 'What problem does this solve?',
     },
     {
-        type: 'list',
-        name: 'license',
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
-    },
-    {
         type: 'input',
         name: 'github',
         question: 'What is your github username?',

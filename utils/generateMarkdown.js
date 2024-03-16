@@ -1,14 +1,9 @@
 function markdown(data) {
   return `# ${data.title}
-${renderLicenseBadge(data.license)}
 
 ## Description
 
 ${data.description}
-
-${renderLicenseLink(data.license)}
-
-${renderLicenseSection(data.license)}
 
 ## What have you learned?
 
