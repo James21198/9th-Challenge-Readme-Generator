@@ -1,7 +1,5 @@
 function markdown(data) {
-  return `# ${data.title}
-
-# 9th-Challenge-Readme-Generator
+  return `# 9th-Challenge-Readme-Generator ${data.title}
 
 ## Description
 
