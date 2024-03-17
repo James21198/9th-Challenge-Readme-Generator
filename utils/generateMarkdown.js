@@ -1,5 +1,13 @@
+function renderLicenseBadge(data) {
+  let licenseType = data.license;
+  if (licenseType === 'MIT') {
+    data.license = `[License: MIT](https://img.shields.io/badge/license-MIT-blue)`
+  }
+}
+
 function markdown(data) {
   return `# ${data.title}
+${renderLicenseBadge(data.license)}
 
 ## Description
 
@@ -7,26 +15,32 @@ ${data.description}
 
 ## Table of Contents
 
-* [Learned](#learned)
-* [Motivation?](#motivation)
-* [Project?](#project)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contribution](#contribution)
+* [Tests](#tests)
 * [Questions](#questions)
 
-## What have you learned?
+## Installation
 
-${data.learn}
+${data.installation}
 
-## What was your motivation?
+## Usage
 
-${data.motivation}
+${data.usage}
 
-## Why did you build this project?
+## License
 
-${data.project}
+${data.license}
 
-## What problem does this solve for you?
+## Contribution
 
-${data.problem}
+${data.contribution}
+
+## Tests
+
+${data.test}
 
 ## Questions
 

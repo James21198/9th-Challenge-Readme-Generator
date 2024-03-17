@@ -11,23 +11,29 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'learn',
-        question: 'What have you learned from this project?',
+        name: 'installation',
+        question: 'What do you need to do to install this project?',
+    },
+    {
+        type: 'list',
+        name: 'license',
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
     },
     {
         type: 'input',
-        name: 'motivation',
-        question: 'What was your motivation?',
+        name: 'test',
+        question: 'How do you test your project?',
+        default: 'npm test',
     },
     {
         type: 'input',
-        name: 'project',
-        question: 'Why did you build this project?',
+        name: 'usage',
+        question: 'How do you use your project?',
     },
     {
         type: 'input',
-        name: 'problem',
-        question: 'What problem does this solve?',
+        name: 'contribution',
+        question: 'Has any other users contributed to this project, if so please list them',
     },
     {
         type: 'input',
